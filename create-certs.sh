@@ -1,7 +1,7 @@
 #!/bin/sh
 
-TARGET_DIR=certs/$DOMAIN\:$PORT
-mkdir -p $TARGET_DIR
+TARGET_DIR=/Users/wupeijin/.ssh
+DOMAIN=CHINA
 
 openssl req \
     -new \
